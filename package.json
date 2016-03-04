@@ -14,7 +14,6 @@
   "author": "Steve Lund <lund5000@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "merge-descriptors": "^1.0.1",
-    "q": "^1.4.1"
+    "merge-descriptors": "^1.0.1"
   }
 }
