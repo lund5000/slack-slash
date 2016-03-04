@@ -1,0 +1,15 @@
+{
+  "name": "slack-slash",
+  "version": "1.0.0",
+  "description": "A toolkit for creating slash commands for Slack",
+  "keywords": ["Slack", "slash", "command"],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steve Lund <lund5000@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "merge-descriptors": "^1.0.1"
+  }
+}
