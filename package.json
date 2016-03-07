@@ -12,8 +12,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Steve Lund <lund5000@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "merge-descriptors": "^1.0.1"
-  }
+  "license": "MIT"
 }
