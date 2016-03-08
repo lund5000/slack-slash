@@ -33,7 +33,7 @@ At execution time the command will compare the token received from Slack against
 
 The `pattern` should be a regular expression that will be executed against the text a user enters. If the `pattern` is defined as a String, then it will be coerced into a RegExp. You can use capture groups to parse the text and those matches will be sent to your handler.
 
-The `description` is a string that will be used to automatically build a help action. For example, when defining the command `/repeat' a description that reads "reverse [text]: Repeats back the text in reverse" will look this when a user types in "/repeat help":
+The `description` is a string that will be used to automatically build a help action. For example, when defining the command `/repeat', a description that reads "reverse [text]: Repeats back the text in reverse" will look like this when a user types in "/repeat help":
 
 _• /repeat reverse [text]: Repeats back the text in reverse_
 
