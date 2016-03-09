@@ -1,15 +1,15 @@
-# slack-slash
+# slacktion
 
 A small, dependency-free toolkit for building a slash command for Slack that handles token validation, defining multiple actions, and automatically building a help action that explains the command's usage.
 
 ## Example
 
-Check out the [example repo](https://github.com/lund5000/slack-slash-example) to see a simple Express app that creates a command using slack-slash.
+Check out the [example repo](https://github.com/lund5000/slack-slash-example) to see a simple Express app that creates a command using slacktion.
 
 ## Creating and configuring a command
 
 ```
-var Command = require('slack-slash').Command;
+var Command = require('slacktion').Command;
 
 function MyCommand(data, token) {
 	var command = new Command(data, token);
