@@ -11,7 +11,7 @@ A small, dependency-free toolkit for building a slash command for Slack.
 
 ## Example
 
-Check out the [example repo](https://github.com/lund5000/slack-slash-example) to see a simple Express app that creates a command using slacktion.
+Check out the [example repo](https://github.com/lund5000/slacktion-example) to see a simple Express app that creates a command using slacktion.
 
 ## Creating and configuring a command
 
