@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./lib/slack-slash');
+module.exports = require('./lib/slacktion');
