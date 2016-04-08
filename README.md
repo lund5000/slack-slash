@@ -1,6 +1,6 @@
 # slacktion
 
-A small, dependency-free toolkit for building a slash command for Slack.
+A small, dependency-free library to build a slash command for Slack.
 
 
 ## Features
