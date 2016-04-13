@@ -16,5 +16,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/lund5000/slacktion"
+  },
+  "dependencies": {
+    "lodash.merge": "^4.3.5"
   }
 }
