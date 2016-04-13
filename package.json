@@ -18,6 +18,7 @@
     "url": "https://github.com/lund5000/slacktion"
   },
   "dependencies": {
-    "lodash.merge": "^4.3.5"
+    "lodash.merge": "^4.3.5",
+    "qs": "^6.1.0"
   }
 }
