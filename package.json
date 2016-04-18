@@ -1,6 +1,6 @@
 {
   "name": "slacktion",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A toolkit for creating slash commands for Slack",
   "keywords": [
     "Slack",
@@ -16,5 +16,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/lund5000/slacktion"
+  },
+  "dependencies": {
+    "lodash.merge": "^4.3.5",
+    "qs": "^6.1.0"
   }
 }
