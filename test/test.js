@@ -59,7 +59,27 @@ describe('Command', function () {
         }, 'token')
         .action('.*', 'help text')
         .execute((err, result) => {
-          expect(result).to.eql(result);
+          expect(result).to.eql(help);
+          done();
+        });
+    });
+
+    it('should ignore missing help text', function (done) {
+      let help = {
+        response_type: 'ephemeral',
+        text: '• /test help text'
+      };
+      
+      Command({
+          command: '/test',
+          text: 'help',
+          token: 'token'
+        }, 'token')
+        .action('.*', 'help text')
+        .action('.*', '')
+        .action('.*')
+        .execute((err, result) => {
+          expect(result).to.eql(help);
           done();
         });
     });
@@ -74,7 +94,7 @@ describe('Command', function () {
           (data, matches, callback) => {
             callback(null, 'first');
           })
-        .action('.*', '', 
+        .action(/.*/, '', 
           (data, matches, callback) => {
             callback(null, 'second');
           })
