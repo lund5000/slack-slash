@@ -7,15 +7,7 @@ const Command = require('slacktion').Command;
 
 let repeater = Command(DATA_POSTED_BY_SLACK, VALIDATION_TOKEN);
 
-repeater.action(/reverse (.*)/, 'reverse [text]: Repeats back the text in reverse',
-    (data, matches, callback) => {
-      callback({
-        response_type: 'ephemeral',
-        text: matches[1].split('').reverse().join('')
-      });
-    }
-  )
-  .action(/.*/, '[text]: Repeats back the text',
+repeater.action(/.*/, '[text]: Repeats back the text',
     (data, matches, callback) => {
       callback({
         response_type: 'ephemeral',
