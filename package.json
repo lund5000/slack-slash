@@ -22,5 +22,10 @@
     "lodash.merge": "^4.6.2",
     "qs": "^6.9.0",
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5"
   }
 }
