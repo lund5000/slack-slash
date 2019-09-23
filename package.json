@@ -9,7 +9,8 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha -- -R spec"
   },
   "author": "Steve Lund <lund5000@gmail.com>",
   "license": "MIT",
